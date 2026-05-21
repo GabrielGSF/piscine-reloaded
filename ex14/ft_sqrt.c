@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_sqrt.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: device935 <device935@student.42.fr>        +#+  +:+       +#+        */
+/*   By: gdos-san <gdos-san@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/20 23:37:14 by device935         #+#    #+#             */
-/*   Updated: 2026/05/20 23:48:02 by device935        ###   ########.fr       */
+/*   Updated: 2026/05/21 16:50:35 by gdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,12 +29,12 @@ int	ft_sqrt(int nb)
 	return (ft_is_sqrt(nb, 0));
 }
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int	main(void)
-// {
-// 	printf("Raiz de 25: %i\n", ft_sqrt(25));
-// 	printf("Raiz de 100: %i\n", ft_sqrt(100));
-// 	printf("Raiz de 7: %i\n", ft_sqrt(7));
-// 	printf("Raiz de -7: %i\n", ft_sqrt(-7));
-// }
+int	main(void)
+{
+	printf("Raiz de 25: %i\n", ft_sqrt(2147483647));
+	printf("Raiz de 100: %i\n", ft_sqrt(100));
+	printf("Raiz de 7: %i\n", ft_sqrt(7));
+	printf("Raiz de -7: %i\n", ft_sqrt(-7));
+}
